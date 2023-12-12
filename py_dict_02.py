@@ -28,3 +28,11 @@ employee_654321 = {
 employees = []
 employees.append(employee_123456)
 employees.append(employee_654321)
+
+
+# print(employees)
+for employee in employees:
+    # print(employee) -> employee je rjecnik ili dict
+    print()
+    for key, value in employee.items():
+        print(key, value)
